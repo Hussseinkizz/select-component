@@ -1,0 +1,29 @@
+/* Any custom css overrides or so go here */
+
+body {
+  width: 100%;
+  min-height: 100dvh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  place-items: start;
+  padding: 5rem;
+  overflow: hidden;
+}
+
+#my-select {
+  /* selection component style overrides */
+  --sc-min-width: 120px;
+  --sc-bg-primary: #fff;
+  --sc-bg-secondary: #fff;
+  --sc-bg-accent: rgb(94 234 212);
+  --sc-color-primary: rgb(31 41 55);
+  --sc-color-secondary: rgb(156 163 175);
+  --sc-color-accent: rgb(156 163 175);
+  --sc-bg-selected: rgb(204 251 241);
+  --sc-color-selected: rgb(20 184 166);
+  --sc-bg-hover: rgb(240 253 250);
+  --sc-color-disabled: #ccc;
+}
